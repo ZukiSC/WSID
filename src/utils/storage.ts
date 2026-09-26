@@ -3,36 +3,7 @@ import { Activity } from '../types/activity';
 const STORAGE_KEY = 'what_should_i_do_activities_v1';
 
 export const INITIAL_DEFAULT_ACTIVITIES: Activity[] = [
-  {
-    id: 'act-1',
-    title: 'Study Java',
-    completed: false,
-    createdAt: Date.now() - 1000 * 60 * 60 * 4,
-  },
-  {
-    id: 'act-2',
-    title: 'Exercise',
-    completed: false,
-    createdAt: Date.now() - 1000 * 60 * 60 * 3,
-  },
-  {
-    id: 'act-3',
-    title: 'Clean my room',
-    completed: false,
-    createdAt: Date.now() - 1000 * 60 * 60 * 2,
-  },
-  {
-    id: 'act-4',
-    title: 'Watch a movie',
-    completed: false,
-    createdAt: Date.now() - 1000 * 60 * 60 * 1,
-  },
-  {
-    id: 'act-5',
-    title: 'Work on my project',
-    completed: false,
-    createdAt: Date.now(),
-  },
+  
 ];
 
 /**

@@ -25,14 +25,7 @@ export const EmptyState: React.FC<EmptyStateProps> = ({
       </p>
 
       <div className="flex flex-col sm:flex-row items-center gap-2.5">
-        <button
-          type="button"
-          onClick={onAddFirstClick}
-          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold rounded-xl min-h-[44px] transition-all cursor-pointer shadow-xs active:scale-95"
-        >
-          <PlusCircle className="w-4 h-4" />
-          <span>Add your first activity</span>
-        </button>
+        
 
         {onLoadPresets && (
           <button

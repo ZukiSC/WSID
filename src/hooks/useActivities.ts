@@ -55,9 +55,7 @@ export function useActivities() {
     setActivities((prev) => prev.filter((a) => !a.completed));
   }, []);
 
-  const resetToDefaults = useCallback(() => {
-    setActivities(INITIAL_DEFAULT_ACTIVITIES);
-  }, []);
+
 
   const activeActivities = useMemo(
     () => activities.filter((a) => !a.completed),
@@ -81,6 +79,6 @@ export function useActivities() {
     toggleComplete,
     markCompleted,
     clearCompleted,
-    resetToDefaults,
+   
   };
 }
