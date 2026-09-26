@@ -1,0 +1,7 @@
+{
+  "name": "What Should I Do?",
+  "description": "A fun, modern decision-maker that randomly chooses what activity you should do next.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
